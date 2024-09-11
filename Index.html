@@ -1,0 +1,81 @@
+<div id="counter">Visitas: 0</div>
+
+<script>
+    let visits = localStorage.getItem('visits') ? parseInt(localStorage.getItem('visits')) : 0;
+    visits++;
+    localStorage.setItem('visits', visits);
+    document.getElementById('counter').innerText = `Visitas: ${visits}`;
+</script>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<section id="sobre">
+    <h2>Sobre Mim</h2>
+    <div class="image-text-container">
+        <img src="Kikinho.jpg" alt="Kiko" class="image">
+        <div class="text-overlay">
+            <p>Olá! Eu sou Kiko, um apaixonado por aventuras e pela vida no campo. Já fui alpinista, surfista, engenheiro agrônomo, piloto profissional, laçador e peão. Hoje, cuido da minha fazendinha de 50 hectares, onde encontro paz e satisfação.
+
+Cada dia na fazenda é uma nova aventura. Acordo cedo, quando o sol começa a despontar no horizonte, e o canto dos pássaros me dá bom dia. Sinto o cheiro da terra molhada após a chuva e o frescor do orvalho nas folhas. Minha rotina começa com a alimentação dos animais: as vacas, galinhas e porcos são como uma família que cuido com carinho.
+
+Recentemente, decidi cultivar um pequeno pomar. Plantei maçãs, laranjas e algumas frutas exóticas que conheci em minhas viagens. A jardinagem se tornou uma nova paixão, e nada se compara à alegria de colher os frutos do meu trabalho. Na verdade, cada maçã que colho me lembra das aventuras que vivi: as escaladas nas montanhas, as ondas do mar e as noites sob as estrelas.Nos fins de semana, gosto de convidar amigos para passar um tempo na fazenda. Preparamos um bom churrasco e contamos histórias das nossas aventuras. O campo é o cenário perfeito para reencontrar velhos amigos e fazer novas memórias. Às vezes, organizo uma competição de laço, trazendo de volta a adrenalina que sentia nos rodeios.</p>
+        </div>
+    </div>
+</section>
+
+<section id="conquistas">
+    <h2>Minhas Conquistas</h2>
+    <p>Ao longo da minha vida, tive a honra de ganhar diversos prêmios em competições de laço, além de realizar feitos incríveis como alpinista e piloto. Cada conquista é uma parte da minha história.</p>
+    <ul>
+        <li>Vencedor do Campeonato Nacional de Laço</li>
+        <li>Recorde de altitudes em alpinismo</li>
+        <li>Prêmios em competições de surf</li>
+        <li>Engenheiro agrônomo premiado</li>
+    </ul>
+</section>
+
+<section id="fazendinha">
+    <h2>Minha Fazendinha</h2>
+    <div class="image-text-container">
+        <img src="Fazenda.jpg" alt="Fazendinha" class="image">
+        <div class="text-overlay">
+            <p>Meu refúgio e lugar de trabalho. A fazendinha é onde cultivo meus sonhos e cuido dos animais. Aqui, a natureza é minha maior companheira. Os dias são repletos de sons suaves: o canto dos pássaros ao amanhecer, o sussurro do vento nas folhas e o farfalhar do capim quando os animais pastam.
+
+                Cada canto da fazenda tem uma história. O curral, por exemplo, é onde passei horas aprendendo a laçar e cuidar do gado. As vacas, com seus olhos grandes e tranquilos, tornaram-se parte da minha rotina. Eu as conheço pelo nome e, em troca, elas me oferecem leite fresco, que uso para fazer queijos e iogurtes.</p>
+        </div>
+    </div>
+</section>
+
+<section id="musica">
+    <h2>Fã do Eduardo Costa</h2>
+    <div class="image-text-container">
+        <img src="Eduardo costa.jpg" alt="Eduardo Costa" class="image">
+        <div class="text-overlay">
+            <p>Sou fã número um do Eduardo Costa! As músicas dele sempre me inspiram e trazem alegria. Se você também é fã, vamos conversar sobre nossas músicas preferidas!
+
+                Uma das minhas canções favoritas é "Quem Ama Não Esquece". A forma como ele expressa sentimentos de amor e saudade é simplesmente tocante. Cada vez que a ouço, sinto uma conexão profunda com as letras. E aquela melodia? É impossível não cantar junto!
+                
+                Outra música que não sai da minha cabeça é "Coração Pirata". A batida envolvente e a letra falam sobre superação e força. É uma daquelas canções que me fazem acreditar que, mesmo nas dificuldades, sempre há uma luz no fim do túnel.
+                
+                E você, tem alguma música do Eduardo que marca um momento especial na sua vida? Adoro ouvir sobre as histórias que as pessoas compartilham em relação às músicas. O que mais você gosta nas canções dele?</p>
+        </div>
+    </div>
+</section>
+<section id="fazendinha">
+    <h2>Lar Doce lar</h2>
+    <div class="image-text-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2998.6487421969055!2d-52.12717728999107!3d-24.435773978117975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1726003257214!5m2!1spt-BR!2sbr" width="600" height="450" style="border:100;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        <div class="text-overlay">
+            <p>Isso daqui é só um pedacinho das minhas terras, mais esse é um dos mues terrenos mais pequenos cerca de uns 100 hectares só, isso aí não dá pra nada o terreno é tão pequeno que eu deixei para as crianças brincarem de tão pequeno, mas eu fico me sentindo até mal de deixar aquele terreno minuscúlo para alguém cuidar, o meu caseiro é tão humilde que falou que aquele terreno é muito grande para uma pessoa só cuidar, como pode haver tanta humildade em uma pessoa só, mas eu avisei ele se ele quissese contratar mais pessoas eu ia diminuir o salário dele né, porque não tem quem aguenta pagar mais de 50 funcionários né, agora todos estão ganhando apenas 2 milhões, eu sei que é pouco, mas foi o que deu para fazer né, com tantos funcionários assim, mas eu achei 50 funcionários um ouco exagerado né, só para esse pedacinho de terra.
+                O real motivo de eu ter tantas fazendas é pra me livra do Fubango (entendedores entenderão), porque depois que eu fiquei com a mulher dele(Rodrigo) ele passou a me odiar e disse que quando ele se enfezar comigo já era, ele vai vim correndo onde quer que ele esteja(eu acho meio difícil ele conseguir correr né, mas quem sou eu pra fala alguma coisa), esse é o real motivo de eu ter mais de 6 mil fazendas espalhadas pelo mundo, pra ele nunca saber aonde eu realmente estou e sempre que for preciso eu conseguir me esconder em alguma propriedade minha.
+            </p>
+        </div>
+    </div>
+</section>
+

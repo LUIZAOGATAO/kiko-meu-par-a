@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+
+.image-text-container {
+    display: flex; /* Usar flexbox para alinhar imagem e texto lado a lado */
+    align-items: center; /* Alinha verticalmente no centro */
+    margin-bottom: 20px; /* Espaço entre as seções */
+}
+
+.image {
+    width: 300px; /* Largura fixa para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.text-overlay {
+    max-width: 600px; /* Largura máxima do texto */
+    color: #333; /* Cor do texto */
+}
